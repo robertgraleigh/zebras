@@ -1,3 +1,5 @@
+(function(){
+
 'use strict';
 
 angular.module('zebraTestApp')
@@ -14,3 +16,5 @@ angular.module('zebraTestApp')
       }
     };
   });
+  
+}());
