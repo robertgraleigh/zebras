@@ -5,7 +5,12 @@ angular.module('zebraTestApp', [
   'ngResource',
   'ngSanitize',
   'ui.router',
+<<<<<<< HEAD
   'backand'
+=======
+  'backand',
+  'angular-stripe'
+>>>>>>> 22ca2c8364c7a1e03cf6c64939316246f9cb894a
 ])
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider, BackandProvider) {
     $urlRouterProvider
