@@ -22,19 +22,28 @@
 <section id="" class="">
   <div class="container">
     <form id="donationForm" class="">
-      <label for="">First Name</label>
-      <input type="text" id="" placeholder="Enter your first name">
-      <label for="">Last Name</label>
-      <input type="text" id="" placeholder="Enter your last name">
-      <label for="emailAddress">Email Address</label>
-      <input type="email" id="" placeholder="Enter your email address">
-      <label for="mobilePhone">Mobile Phone</label>
-      <input type="tel" id="" placeholder="">
-      <label for="cardNumber">Credit Card #</label>
-      <input type="text" id="" placeholder="">
-      <label for="cvc">CVC</label>
-      <input type="text" maxlength="4" autocomplete="off">
-      <label for="expiration">Expiration Date</label>
+      <fieldset id="contactInfo">
+        <label for="">First Name</label>
+        <input type="text" id="" placeholder="Enter your first name">
+        <label for="">Last Name</label>
+        <input type="text" id="" placeholder="Enter your last name">
+        <label for="emailAddress">Email Address</label>
+        <input type="email" id="" placeholder="Enter your email address">
+        <label for="mobilePhone">Mobile Phone</label>
+        <input type="tel" id="" placeholder="">
+      </fieldset>
+      <fieldset id="creditCard">
+        <label for="cardNumber">Credit Card #</label>
+        <input type="text" id="creditCardNumber" data-ng-model="card.number" cc-number placeholder="">
+        <label for="cvc">CVC</label>
+        <input type="text" id="cvc" data-ng-model="card.cvc" cc-cvc>
+      </fieldset>
+      <fieldset id="expirationDate" cc-exp>
+        <label for="expiryMonth">Month</label>
+        <input id="expiryMonth" data-ng-model="card.exp_month" cc-exp-month>
+        <label for="expiryYear">Year</label>
+        <input id="expiryYear" data-ng-model="card.exp_year" cc-exp-year>
+      </fieldset>
       <button id="">Donate to {LOG} CAMP</button>
     </form>
     <!-- /form -->
