@@ -1,11 +1,15 @@
+(function(){
+
 'use strict';
 
 angular.module('zebraTestApp')
   .config(function ($stateProvider) {
     $stateProvider
       .state('main', {
-        url: '/',
+        url: '/main',
         templateUrl: 'app/main/main.html',
         controller: 'MainCtrl'
       });
   });
+
+}());

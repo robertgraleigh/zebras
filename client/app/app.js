@@ -1,3 +1,5 @@
+(function(){
+
 'use strict';
 
 angular.module('zebraTestApp', [
@@ -10,7 +12,7 @@ angular.module('zebraTestApp', [
 ])
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider, BackandProvider, stripeProvider) {
     $urlRouterProvider
-      .otherwise('/');
+      .otherwise('/main');
 
     $locationProvider.html5Mode(true);
     BackandProvider.setAppName('zebratest');
@@ -18,3 +20,5 @@ angular.module('zebraTestApp', [
     BackandProvider.setAnonymousToken('2e994303-7159-47c0-b56e-a989f75414eg');
     stripeProvider.setPublishableKey('pk_test_wOSQCR72Mz5xChWQEDNzCzJM');
   });
+
+}());
