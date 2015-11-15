@@ -4,17 +4,17 @@
   "dependencies": {
     "angular": ">=1.2.*",
     "angular-cookies": ">=1.2.*",
+    "angular-credit-cards": "~2.3.5",
     "angular-resource": ">=1.2.*",
     "angular-sanitize": ">=1.2.*",
     "angular-stripe": "~4.2.8",
     "angular-ui-router": "~0.2.15",
     "es5-shim": "~3.0.1",
     "font-awesome": ">=4.1.0",
-    "lodash": "~2.4.1",
-    "angular-ui-router": "~0.2.15",
-    "angular-stripe": "~4.2.8"
+    "lodash": "~2.4.1"
   },
   "devDependencies": {
+    "angular-credit-cards": "~2.3.5",
     "angular-mocks": ">=1.2.*",
     "angular-scenario": ">=1.2.*",
     "angular-stripe": "~4.2.8"

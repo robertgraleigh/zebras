@@ -8,7 +8,8 @@ angular.module('zebraTestApp', [
   'ngSanitize',
   'ui.router',
   'backand',
-  'angular-stripe'
+  'angular-stripe',
+  'credit-cards'
 ])
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider, BackandProvider, stripeProvider) {
     $urlRouterProvider
