@@ -1,13 +1,18 @@
 /*
-(function () {
+(function (){
 
-	'use strict';
+'use strict';
 
-	angular.module('zebraTestApp')
-		.factory('Payment', function ($scope, $http, stripe) {
+angular.module('zebraTestApp')
+  .controller('PaymentCtrl', function ($scope, $http, stripe) {
 			// Collect the credit card details into a form object
-			$scope.formInfo = {};
-			var form = $scope.formInfo;
+			/* $scope.formInfo = {};
+			formInfo.name: $scope.formInfo.name,
+			formInfo.email: $scope.formInfo.email,
+			formInfo.phone: $scope.formInfo.phone,
+			forminfo.number: $scope.forminfo.number,
+			
+			var card = $scope.formInfo;
 
 			// This is the angular way, not the JQuery way
 			$scope.checkCard = function () {
@@ -22,13 +27,13 @@
 						console.log('successfully submitted payment for $ ', payment.amount);
 					}).catch(function (err) {
 						if (err.type && /^Stripe/.test(err.type)) {
-							alert('Stripe error: ', err.message);
+							console.log('Stripe error: ', err.message);
 						} else {
-							alert('Other error occurred, possibly with your API', error.message);
+							console.log('Other error occurred, possibly with your API', error.message);
 						}
 					});
 			};
 		});
-// Call the IFFE function
+	// Call the IFFE function
 }());
 */

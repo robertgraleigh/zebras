@@ -1,7 +1,36 @@
-<nav class="navbar navbar-dark bg-inverse navbar-fixed-top" data-ng-controller="NavbarCtrl">
-  <div class="container">
-    <div class="navbar-header">
-      <a ui-sref="main" class="navbar-brand">zebra-test</a>
-    </div>
-  </div>
+<!-- Nav class: -->
+<nav class="navbar navbar-fixed-top giftwrap" data-ng-controller="NavbarCtrl" style="background-color: #990000;">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><span class="fa-background-rectangle" style="color: #333333">{LOG} CAMP</span></a>
+		</div>
+		<div id="navbar" class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li><a class="fa-background-rectangle" href="#">About</a>
+				</li>
+				<li>
+					<a class="fa-background-rectangle" ng-href="#">One-Time Gifts</a>
+				</li>
+				<li>
+					<a class="fa-background-rectangle" ng-href="">Monthly Gifts</a>
+				</li>
+				<li>
+					<a class="fa-background-rectangle" ng-href="#">Contact Us</a>
+				</li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right has-form">
+				<li>
+					<button class="btn btn-lg navbar-btn btn-default" ui-href="../navbar-fixed-top/">Donate</button>
+				</li>
+			</ul>
+		</div>
+		<!--/.nav-collapse -->
+	</div>
+	<!--/.container-fluid -->
 </nav>

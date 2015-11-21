@@ -1,4 +1,117 @@
+body {
+	margin: 80px 0px 0px 0px;
+	padding: 0px;
+}
+#donationForm {
+	border: solid 2px #f2f2f2;
+	padding: 15px;
+}
+#form {
+	margin: 0px;
+	padding: 40px 0px 40px 0px;
+}
+.list-group-item {
+	font-family: 'Verdana', 'Arial', sans-serif;
+	font-size: 1.5rem;
+}
+.fa-background-rectangle {
+	background-color: #f2f2f2;
+	border: solid 5px #333333;
+	border-radius: 5px;
+	padding: 5px;
+}
+#story {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+#gift-packages {
+	padding-top: 40px; 
+	padding-bottom: 40px;
+}
+.no-margin-top {
+	margin-top: 0px;
+}
+.red-border {
+	border-bottom: solid 5px #d42426;
+}
+.btn-green {
+	font-family: 'OSP-DIN', 'Verdana', 'Arial',  sans-serif;
+	font-size: 3rem;
+	font-weight: normal;
+	color: #f2f2f2;
+	border-radius: 5px;
+	background-color: #009900;
+	text-transform: uppercase;
+	padding: 5px 2px 5px 2px;
+}
+.gift {
+	border: solid 5px #cccccc;
+}
+.giftwrap {
+	background-image: url(/assets/images/seamless-red-wrapping-paper.jpg);
+	background-repeat: repeat;
+	color: #f2f2f2;
+}
+.fa-white {
+	color: #f2f2f2;
+}
+.fa-circle {
+	border: solid 5px; 
+	border-radius: 50%; 
+	padding: 5px 10px 5px 10px;
+}
+.btn-red {
+	font-family: 'Verdana', 'Arial', sans-serif;
+	font-size: 3rem;
+	font-weight: normal;
+	background-color: '#d42426'
+}
+h1.brand {
+	font-family: 'OSP-DIN';
+	font-size: 5rem;
+	text-transform: uppercase;
+}
+h2.brand {
+	font-family: 'OSP-DIN';
+	font-size: 5rem;
+	text-transform: uppercase;
+}
+h3.brand {
+	font-family: 'OSP-DIN';
+	font-size: 5rem;
+	text-transform: uppercase;
+}
+.extra-margin-top {
+	margin-top: 40px;
+}
+.extra-margin-bottom {
+	margin-bottom: 40px;
+}
+.extra-padding-top {
+	padding-top: 40px;
+}
+.extra-padding-btm {
+	padding-bottom: 40px;
+}
+#giving-tree {
+	margin-top: 40px;
+	padding: 140px 0px 140px 0px;
+	max-height: 800px;
+	background-image: url(/assets/images/technics-q-g-1366-700-3.jpg);
+	background-position: center;
+}
 
+.bg-light-gray {
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-family: 'Verdana', 'Arial', 'sans-serif';
+	font-weight: normal;
+	font-size: 2rem;
+}
 
 /**
  *Font Awesome Fonts

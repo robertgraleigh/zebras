@@ -1,0 +1,35 @@
+nav {
+	padding: 20px 0px 20px 0px;
+	background-color: #d42426;
+}
+.navbar-brand {
+	font-family: 'OSP-DIN';
+	font-weight: normal;
+	font-size: 54px !important;
+	color: #f2f2f2;
+}
+a {
+	color: #f2f2f2;
+}
+.navbar-nav li a {
+	font-family: 'OSP-DIN';
+	font-size: 3rem;
+	font-weight: normal;
+	text-transform: capitalize;
+	margin-right: 5px;
+	color: #333333;
+}
+.navbar-nav li a:hover {
+	color: #333333;
+	text-decoration: underline
+}
+a:hover {
+	background: none;
+}
+a.navbar-brand:hover {
+	color: #f2f2f2;
+	text-decoration: underline;
+}
+.bg-red {
+	background-color: #d42426;
+}

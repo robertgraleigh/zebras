@@ -1,66 +1,65 @@
 <!-- Footer -->
-<script>
-  (function() {
-    'use strict';
-    var date = new Date();
-    var year = date.getFullYear();
-    document.getElementById('currentYear').innerHTML = year;
-  }());
-</script>
-
-<footer class="footer navbar-dark bg-inverse">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-        <h3>{LOG} CAMP</h3>
-        <p class="">This is the description about Log Camp.</p>
-      </div>
-      <div class="col-lg-6">
-        <h3>Connect with us</h3>
-        <ul class="list-group ">
-          <li class="list-group-item">
-            <a data-ng-href="https://www.twitter.com/logcamp">
-              <i class="fa fa-twitter fa-2x"></i>
-              <span>Facebook</span>
-            </a>
-          </li>
-          <li class="list-group-item">
-            <a data-ng-href="https://www.twitter.com/logcamp">
-              <i class="fa fa-twitter fa-2x"></i>
-              <span>Twitter</span>
-            </a>
-          </li>
-          <li class="list-group-item">
-            <a data-ng-href="https://www.twitter.com/logcamp">
-              <i class="fa fa-twitter fa-2x"></i>
-              <span>Instagram</span>
-            </a>
-          </li>
-          <li class="list-group-item">
-            <a data-ng-href="https://www.twitter.com/logcamp">
-              <i class="fa fa-twitter fa-2x"></i>
-              <span>Twitter</span>
-            </a>
-          </li>
-          <li class="list-group-item">
-            <a data-ng-href="https://www.twitter.com/logcamp">
-              <i class="fa fa-twitter fa-2x"></i>
-              <span>Twitter</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-12">
-        <p>Copyright &copy; <span id="currentYear"></span>. Log Camp, Inc. All rights reserved | Built by
-          <a href="https://twitter.com/robertgraleigh">@robertgraleigh</a> &amp;
-          <a href="https://twitter.com/flamingveggies">@flamingveggies</a>
-        </p>
-      </div>
-    </div>
-
-  </div>
-  <!-- /.container -->
+<footer class="footer container-fluid" data-ng-controller="FooterCtrl">
+	<div class="row">
+		<div class="col-lg-6">
+			<h3 class="brand">About {LOG} CAMP</h3>
+			<p class="lead">We're an Oregon nonprofit school providing technology and computer science education for underserved, low-income, and minority youth living in Multnomah and Washington Counties.</p>
+			<p class="lead"> Log Camp is located in Portland, OR.</p>
+		</div>
+		<!-- /.col-lg-4 -->
+		<div class="col-lg-6">
+			<h3>Contact us</h3>
+			<ul class="list">
+				<li>
+  				<i class="fa fa-envelope-o fa-4x"></i>hello@logcamp.org
+				</li>
+				<li>
+  				<i class="fa fa-twitter fa-4x"></i>
+					<span>+1 5030526125</span>
+				</li>
+			</ul>
+			<h3>Connect with us</h3>
+			<ul class="list-inline">
+				<li>
+					<a data-ng-href="https://www.twitter.com/logcamp">
+  					<i class="fa fa-twitter fa-4x"></i>
+					</a>
+				</li>
+				<li>
+					<a data-ng-href="https://www.facebook.com/logcamp">
+  					<i class="fa fa-facebook fa-4x"></i>
+					</a>
+				</li>
+				<li>
+					<a data-ng-href="https://www.instagram.com/logcamp">
+  					<i class="fa fa-twitter fa-4x"></i>
+					</a>
+				</li>
+				<li>
+					<a data-ng-href="https://www.linkedin.com/logcamp">
+  					<i class="fa fa-linkedin fa-4x"></i>
+					</a>
+				</li>
+				<li>
+					<a data-ng-href="https://www.github.com/logcamp">
+  					<i class="fa fa-github fa-4x"></i>
+					</a>
+				</li>
+			</ul>
+			<!-- /ul -->
+		</div>
+		<!-- /.col-lg-6 -->
+	</div>
+	<!-- /.row -->
+	<div class="row">
+		<div class="col-lg-12">
+			<span>&copy; {{ date | date: 'yyyy' }}</span>. Log Camp, Inc. All rights reserved
+			<span>Built by <a href="https://twitter.com/robertgraleigh">@robertgraleigh</a> &amp;
+      	<a href="https://twitter.com/flamingveggies">@flamingveggies</a>
+      </span>
+		</div>
+		<!-- /.col-lg-6 -->
+	</div>
+	<!-- /.row -->
 </footer>
 <!-- footer -->
